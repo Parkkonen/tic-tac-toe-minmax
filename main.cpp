@@ -1,8 +1,10 @@
 #include <iostream>
+#include "game.h"
+
 
 int main()
 {
-	std::cout << "First commit for tic-tac-toe\n";
+	Game::Run();
 
 	return 0;
 }
